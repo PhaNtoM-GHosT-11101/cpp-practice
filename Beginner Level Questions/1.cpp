@@ -9,5 +9,20 @@
 using namespace std;
 
 int main(){
-    string name
+    string name;
+    int year;
+    const int cyear = 2026;
+    int age;
+
+    cout <<"Name:   ";
+    cin>>name;
+    cout<<endl<<"Year Of Birth: ";
+    cin>>year;
+
+    age = cyear - year;
+
+    cout<<endl<<"My name is "<< name<<"and i am "<<age<<"old"<<endl;
+    
+
+
 }
